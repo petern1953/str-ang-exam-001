@@ -13,7 +13,7 @@
 7. Készíts egy Hero osztályt, az alábbi tulajdonságokkal (a típusok értelemszerűek legyenek): id, name, superPower, address.
    ok ok
 8. HeroService: készíts egy service-t, a neve hero legyen. Legyen egy getAll metódusa, ami Hero[] típussal tér vissza, és legalább 5 Hero-t szolgáltat azoknak akik meghívják.
-
+   ok ok ok
 9. HeroesComponent: használja a HeroService-t a Hero példányok lekéréséhez. Jelenítse meg a Hero[] elemeit egy táblázatban, egymás alatt.
 
 10. Extra pont: legyen egy pipe-pal készített szűrő, amely szöveg beírására szűri a táblázatot a name tulajdonság szerint.
