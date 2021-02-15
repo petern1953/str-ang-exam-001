@@ -1,10 +1,10 @@
 1. Kösd be a Bootstrap és Font-Awesome könyvtárakat a projektbe a tanult módon.
-
+   ok
 2. KészÍts egy navigation nevű komponenst, amiben egy alapértelmezett Bootstrap stílusú navbar jelenjen meg.
-
+   ok ok
 3. A navbar a következő linkeket tartalmazza: Home, Heroes. Kattintásra a kapcsolódó komponens jelenjen meg az alkalmazásban.
-
-4. Hozd létre a home és a horeos komponenseket és állítsd be a routing-ban, hogy a '' és 'heroes' útvonalak esetén jelenjenek meg.
+   todo todo
+4. Hozd létre a home és a hereos komponenseket és állítsd be a routing-ban, hogy a '' és 'heroes' útvonalak esetén jelenjenek meg.
 
 5. AppComponent: az oldal tetején a navigation jelenjen meg. Alatta legyen az a rész, ahol az oldalak töltődnek be -- egy container oszályú divben.
 
