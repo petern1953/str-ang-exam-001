@@ -15,7 +15,7 @@
 8. HeroService: készíts egy service-t, a neve hero legyen. Legyen egy getAll metódusa, ami Hero[] típussal tér vissza, és legalább 5 Hero-t szolgáltat azoknak akik meghívják.
    ok ok ok
 9. HeroesComponent: használja a HeroService-t a Hero példányok lekéréséhez. Jelenítse meg a Hero[] elemeit egy táblázatban, egymás alatt.
-
+   ok ok
 10. Extra pont: legyen egy pipe-pal készített szűrő, amely szöveg beírására szűri a táblázatot a name tulajdonság szerint.
 
 11. Extra pont: a fejléc sorokra kattintva lehessen a táblázat adatait növekvő sorrendbe rendezni -- szintén egy pipe használatával.
