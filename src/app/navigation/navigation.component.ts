@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  public activeItem: Array<string> = ["",""];
+  public activeItem: Array<string> = ["active",""];
 
   constructor() { }
 
