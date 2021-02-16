@@ -45,7 +45,8 @@ export class HeroesComponent implements OnInit {
   onColumnSelect(key: string): void {
     this.columnKey = key;
     this.changeOrder();
-    this.searchText = "Search for " + `${this.columnKey}`
+    this.searchText = "Search for " + `${this.columnKey}`;
+    // this.phrase = '';
   }
 
   onChangePhrase(event: Event): void {
