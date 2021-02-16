@@ -17,5 +17,6 @@
 9. HeroesComponent: használja a HeroService-t a Hero példányok lekéréséhez. Jelenítse meg a Hero[] elemeit egy táblázatban, egymás alatt.
    ok ok
 10. Extra pont: legyen egy pipe-pal készített szűrő, amely szöveg beírására szűri a táblázatot a name tulajdonság szerint.
-
+    ok, plus: filters by the column you clicked on
 11. Extra pont: a fejléc sorokra kattintva lehessen a táblázat adatait növekvő sorrendbe rendezni -- szintén egy pipe használatával.
+    ok, plus: clicking again on same column reverts sortorder

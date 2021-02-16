@@ -1,0 +1,8 @@
+.heroTableColumn {
+  user-select: none;
+}
+
+.heroTableColumn th:hover {
+  background-color: #eee;
+  cursor: pointer;
+}

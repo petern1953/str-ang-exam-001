@@ -1,16 +1,31 @@
+
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input (keyup)="onChangePhrase($event)" class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+
+<div class="row">
+  <div class="col-4 offset-8 my-3">
+    <input [formControl]="phraseControl" type="text" class="form-control" [placeholder]="searchText">
+  </div>
+</div>
+
 <div class="row">
   <div class="col-12">
     <table class="table table-striped">
-      <thead>
+      <thead class="heroTableColumn">
         <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>SuperPower</th>
-          <th>Address</th>
+          <th (click)="onColumnSelect('id')">#</th>
+          <th (click)="onColumnSelect('name')">Name</th>
+          <th (click)="onColumnSelect('superPower')">SuperPower</th>
+          <th (click)="onColumnSelect('address')">Address</th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let hero of heroList$ | async">
+        <tr *ngFor="let hero of heroList$ | async | filter:phrase:columnKey | sorter:columnKey:order">
+        <!-- <tr *ngFor="let hero of heroList$ | async | filter:phrase:columnKey"> -->
+        <!-- <tr *ngFor="let hero of heroList$ | async | filter:phrase:'name'"> -->
+        <!-- <tr *ngFor="let hero of heroList$ | async"> -->
           <td>{{ hero.id }}</td>
           <td>{{ hero.name }}</td>
           <td>{{ hero.superPower }}</td>
