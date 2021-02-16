@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  public activeItem: string = "active";
+
   constructor() { }
+
+  flipActive(): void {
+    this.activeItem = this.activeItem ? "" : "active";
+  }
 
   ngOnInit(): void {
   }
