@@ -18,7 +18,7 @@ export class HeroesComponent implements OnInit {
   phrase: string = '';
   order: number = 1;
   columnKey: string = '';
-  searchText: string = "Search for column";
+  searchText: string = "Search for / filter | sort by";
 
   constructor(
     private heroService: HeroService,
@@ -45,7 +45,7 @@ export class HeroesComponent implements OnInit {
   onColumnSelect(key: string): void {
     this.columnKey = key;
     this.changeOrder();
-    this.searchText = "Search for " + `${this.columnKey}`;
+    this.searchText = "Search for / filter | sort by " + `${this.columnKey}`;
     // this.phrase = '';
   }
 
