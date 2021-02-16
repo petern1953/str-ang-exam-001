@@ -11,11 +11,11 @@ egy alapértelmezett Bootstrap stílusú navbar jelenjen meg. -->
   <div class="collapse navbar-collapse" id="collapsibleNavId">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a (click)="flipActive()" class="nav-link" [class]="activeItem[0]" routerLink="/">Home</a>
+        <a (click)="flipActive(0)" class="nav-link" [class]="activeItem[0]" routerLink="/">Home</a>
       </li>
       <!-- <li class="nav-item active"> -->
       <li class="nav-item">
-        <a (click)="flipActive()" class="nav-link" [class]="activeItem[1]" routerLink="/heroes">Heroes</a>
+        <a (click)="flipActive(1)" class="nav-link" [class]="activeItem[1]" routerLink="/heroes">Heroes</a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

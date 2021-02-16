@@ -14,7 +14,8 @@ export class NavigationComponent implements OnInit {
   // flipActive(i: number): void {
   //   this.activeItem[i] = this.activeItem[i] ? "" : "active";
   // }
-  flipActive(): void {
+  flipActive(i: number): void {
+    if (this.activeItem[i]) return
     [this.activeItem[0], this.activeItem[1]] = [this.activeItem[1], this.activeItem[0]]
   }
 
